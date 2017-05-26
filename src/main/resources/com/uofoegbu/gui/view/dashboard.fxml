@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uofoegbu.controller.DashboardController">
+   <children>
+      <Label layoutX="158.0" layoutY="14.0" text="WELCOME TO TIMELY!!!">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="58.0" layoutY="90.0" prefHeight="20.0" prefWidth="134.0" text="Uncompleted Tasks">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <ListView layoutX="27.0" layoutY="120.0" prefHeight="211.0" prefWidth="236.0" />
+      <Label alignment="CENTER" layoutX="356.0" layoutY="90.0" prefHeight="17.0" prefWidth="168.0" text="Completed Tasks">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ListView layoutX="316.0" layoutY="120.0" prefHeight="211.0" prefWidth="236.0" />
+      <Label alignment="CENTER" layoutX="206.0" layoutY="46.0" prefHeight="17.0" prefWidth="168.0" text="Take Charge of your Time">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button layoutX="27.0" layoutY="343.0" mnemonicParsing="false" onAction="#addTask" prefHeight="25.0" prefWidth="98.0" text="Add New Task " />
+      <Label layoutX="447.0" layoutY="54.0" prefHeight="17.0" prefWidth="72.0" text="25/5/2017" />
+      <Label layoutX="524.0" layoutY="54.0" prefHeight="17.0" prefWidth="54.0" text="4:30 PM" />
+   </children>
+</AnchorPane>
